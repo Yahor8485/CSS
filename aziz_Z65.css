@@ -1,0 +1,31 @@
+body {
+    background-color: silver;
+}
+p{font-size: 11pt; margin-left: 3%;}
+
+p:first-child{font-size: 7mm; font-style: italic;}
+
+div#pierwszy_aziz {
+    width: 704pt;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgreen;
+    border: solid 3px black;
+    border-radius: 12mm;
+}
+
+div#drugi_aziz {
+    width: 904pt;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+    border: solid 5px navy;
+    border-radius: 13mm;
+}   
+
+div#trzeci_aziz {
+    width: 1104pt;
+    background-color: lightgreen;
+    border: solid 7px violet;
+    border-radius: 11mm;
+}

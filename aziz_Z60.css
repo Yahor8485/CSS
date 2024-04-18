@@ -1,0 +1,21 @@
+
+div {
+    width: 620px;
+    background-color: green;
+    margin-bottom: 3%;
+ }
+ #blok1_Azizau:hover{
+    background-color: blue;
+ }
+ #blok2_Azizau:hover{
+    background-color: lightgreen;
+ }
+ #blok3_Azizau:hover{
+    background-color: red;
+ }
+ div:hover {
+    font-size: 19mm;
+ }
+
+
+
