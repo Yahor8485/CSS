@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+ <style>
+ <style type="text/css"> /* początek def CSS */
+ * { margin: 0px; padding: 0px;} /* zerowanie styli */
+ div {overflow: hidden; padding: 25px; }
+/* overflow: hidden --> ukrywanie tekstu wychodzącego poza granice elementu  */
+/* padding: 25px; --> odstęp 25px między ramką a contentem*/
+ #ramka { /* definicja elementu ID o nazwie ramka*/
+ margin-right: auto; /* auto --> automatyczny odstęp między całą stroną a ramką z prawej strony */
+ margin-left: auto;
+ min-width: 400px; /* minimalna szer strony--> która wynosi 400px */
+ max_width: 900px; /* maksymalna szer strony-- która wynosi 900px */
+ }
+ #naglowek {
+ background-color: #8b0000;
+/* kolor tła w HEX na #FCF; */
+ font-size:16pt;
+/* wielkość czcionki na 16 na jaka tu jest jednostka-wpisz */
+ color:green;
+/* zmienia kolor czcionki: czerwony */
+ font-family: Arial;
+/* ustawia rodzaj czcionki: arial */
+ font-style: italic;
+/* ustawia krój czcionki: pochyły */
+ text-align: center;
+/* wyśrodkowanie tekstu: do środnia */
+ font-weight:bold;
+/* zmienia grubość czcionki: gruba */
+ }
+ #stopka {
+ background-color: #b22222;
+ font-size:16pt;
+ color:blue;
+ font-family: Arial;
+ font-style: italic;
+ clear:both;
+/* clear-przyleganie elementów, both-oba */
+ }
+.kolumny {/*definicja elementu identyfikatora, może pojawić się on tylko raz*/
+ margin-top: 10px; /* odstęp 10px między całą stroną a ramką od góry */
+ margin-right: 2%; /* odstęp 2% między całą stroną a ramką od prawej */
+ margin-bottom: 2%; /* odstęp 2% między całą stroną a ramką od dołu */
+ margin-left: 10px; /* odstęp 10px między całą stroną a ramką od lewej */
+ background-color: #ff0000;
+ }
+ #kol1 {
+ float: left; /* powoduje, że następne elementy
+strony ustawiają się tak, że istniejące elemnty strony będą po lewej stronie nowych
+elementów strony */
+ width:100px;
+ }
+ #kol2 {
+    font-size: 0.7cm;
+    color: green;
+    background-color: #dc143c;
+ }
+
+#menu_prawe_azizau {
+   float: right;
+    color: black;
+    background-color: #ff0000;
+    font-size: 0.5cm;
+}
+</style>
+ </head>
+<body>
+ <div id="ramka">
+   <div id="naglowek">Nagłówek mojej strony </div>
+   <div class="kolumny" id="kol1"><p>Menu</p> </div>
+   <div class="kolumny" id="kol2"><p>Treść: Szablon pływający (płynny szablon)
+    Przy zmianie szerokości okna przeglądarki zmieniać nie będzie szerkość kolumn.
+    Najczęściej zmiana szerokości dotyczy tylko wybranych kolumn np. kolumna menu pozostaje niezmieniona,
+    pozostałe kolumny zmieniają sie płynnie w stosunku do szerokości okna.</p>
+    <img src="azizau_100procent_skalowania.jpg">
+    <img src="azizau_50procent_skalowania.jpg">
+    </div>
+    <div class="kolumny" id="menu_prawe_azizau">
+      Azizau
+    </div>
+ <div id="stopka">Wykonał Yahor Azizau
+    </div>
+ </div>
+</body>
+</html>
+<!-- Yahor Azizau -->
